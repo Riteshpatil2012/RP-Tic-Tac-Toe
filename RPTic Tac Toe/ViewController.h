@@ -11,5 +11,16 @@
 @interface ViewController : UIViewController
 
 
+{
+    int numberofturns,currentplayer;
+    
+    BOOL GameFinished;
+    NSArray *winningplayer;
+    NSMutableArray *currentstates;
+    
+}
+-(IBAction)buttontapped:(id)sender;
+
+
 @end
 
